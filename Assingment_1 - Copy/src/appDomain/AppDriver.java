@@ -114,6 +114,9 @@ public class AppDriver
             case "m":
                 MergeSort.sort(shapes, comparator);
                 break;
+            case "q":
+                QuickSort.sort(shapes,comparator);
+                break;
             default:
                 System.out.println("Unsupported sort type: " + sortType);
                 return;
