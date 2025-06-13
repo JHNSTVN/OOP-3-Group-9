@@ -117,6 +117,9 @@ public class AppDriver
             case "q":
                 QuickSort.sort(shapes,comparator);
                 break;
+            case "h":
+                HeapSort.sort(shapes, comparator);
+                break;
             default:
                 System.out.println("Unsupported sort type: " + sortType);
                 return;
